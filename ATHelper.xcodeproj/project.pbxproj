@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59FECF401CD656AB0043A46F /* ATHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FECF3F1CD656AB0043A46F /* ATHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FECF471CD656AB0043A46F /* ATHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FECF3C1CD656AB0043A46F /* ATHelper.framework */; };
+		59FECF4C1CD656AB0043A46F /* ATHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FECF4B1CD656AB0043A46F /* ATHelperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59FECF481CD656AB0043A46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59FECF331CD656AB0043A46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59FECF3B1CD656AB0043A46F;
+			remoteInfo = ATHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59FECF3C1CD656AB0043A46F /* ATHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FECF3F1CD656AB0043A46F /* ATHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATHelper.h; sourceTree = "<group>"; };
+		59FECF411CD656AB0043A46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59FECF461CD656AB0043A46F /* ATHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FECF4B1CD656AB0043A46F /* ATHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHelperTests.m; sourceTree = "<group>"; };
+		59FECF4D1CD656AC0043A46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902C44050CEE6DEEB1127450 /* ATHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ATHelper.podspec; sourceTree = "<group>"; };
+		902C453536671D4565645E67 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		902C4FADA5C5856B060CD455 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FECF381CD656AB0043A46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FECF431CD656AB0043A46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FECF471CD656AB0043A46F /* ATHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59FECF321CD656AB0043A46F = {
+			isa = PBXGroup;
+			children = (
+				59FECF3E1CD656AB0043A46F /* ATHelper */,
+				59FECF4A1CD656AB0043A46F /* ATHelperTests */,
+				59FECF3D1CD656AB0043A46F /* Products */,
+				902C44050CEE6DEEB1127450 /* ATHelper.podspec */,
+				902C4FADA5C5856B060CD455 /* README */,
+				902C453536671D4565645E67 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		59FECF3D1CD656AB0043A46F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59FECF3C1CD656AB0043A46F /* ATHelper.framework */,
+				59FECF461CD656AB0043A46F /* ATHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59FECF3E1CD656AB0043A46F /* ATHelper */ = {
+			isa = PBXGroup;
+			children = (
+				59FECF3F1CD656AB0043A46F /* ATHelper.h */,
+				59FECF411CD656AB0043A46F /* Info.plist */,
+			);
+			path = ATHelper;
+			sourceTree = "<group>";
+		};
+		59FECF4A1CD656AB0043A46F /* ATHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				59FECF4B1CD656AB0043A46F /* ATHelperTests.m */,
+				59FECF4D1CD656AC0043A46F /* Info.plist */,
+			);
+			path = ATHelperTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59FECF391CD656AB0043A46F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FECF401CD656AB0043A46F /* ATHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59FECF3B1CD656AB0043A46F /* ATHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FECF501CD656AC0043A46F /* Build configuration list for PBXNativeTarget "ATHelper" */;
+			buildPhases = (
+				59FECF371CD656AB0043A46F /* Sources */,
+				59FECF381CD656AB0043A46F /* Frameworks */,
+				59FECF391CD656AB0043A46F /* Headers */,
+				59FECF3A1CD656AB0043A46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATHelper;
+			productName = ATHelper;
+			productReference = 59FECF3C1CD656AB0043A46F /* ATHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59FECF451CD656AB0043A46F /* ATHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FECF531CD656AC0043A46F /* Build configuration list for PBXNativeTarget "ATHelperTests" */;
+			buildPhases = (
+				59FECF421CD656AB0043A46F /* Sources */,
+				59FECF431CD656AB0043A46F /* Frameworks */,
+				59FECF441CD656AB0043A46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59FECF491CD656AB0043A46F /* PBXTargetDependency */,
+			);
+			name = ATHelperTests;
+			productName = ATHelperTests;
+			productReference = 59FECF461CD656AB0043A46F /* ATHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59FECF331CD656AB0043A46F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "AppTrek Studio";
+				TargetAttributes = {
+					59FECF3B1CD656AB0043A46F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					59FECF451CD656AB0043A46F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 59FECF361CD656AB0043A46F /* Build configuration list for PBXProject "ATHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59FECF321CD656AB0043A46F;
+			productRefGroup = 59FECF3D1CD656AB0043A46F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59FECF3B1CD656AB0043A46F /* ATHelper */,
+				59FECF451CD656AB0043A46F /* ATHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59FECF3A1CD656AB0043A46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FECF441CD656AB0043A46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59FECF371CD656AB0043A46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FECF421CD656AB0043A46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FECF4C1CD656AB0043A46F /* ATHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59FECF491CD656AB0043A46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59FECF3B1CD656AB0043A46F /* ATHelper */;
+			targetProxy = 59FECF481CD656AB0043A46F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59FECF4E1CD656AC0043A46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59FECF4F1CD656AC0043A46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59FECF511CD656AC0043A46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ATHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.apptrek.ATHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59FECF521CD656AC0043A46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ATHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.apptrek.ATHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		59FECF541CD656AC0043A46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ATHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.apptrek.ATHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59FECF551CD656AC0043A46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ATHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.apptrek.ATHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59FECF361CD656AB0043A46F /* Build configuration list for PBXProject "ATHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FECF4E1CD656AC0043A46F /* Debug */,
+				59FECF4F1CD656AC0043A46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FECF501CD656AC0043A46F /* Build configuration list for PBXNativeTarget "ATHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FECF511CD656AC0043A46F /* Debug */,
+				59FECF521CD656AC0043A46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59FECF531CD656AC0043A46F /* Build configuration list for PBXNativeTarget "ATHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FECF541CD656AC0043A46F /* Debug */,
+				59FECF551CD656AC0043A46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59FECF331CD656AB0043A46F /* Project object */;
+}
