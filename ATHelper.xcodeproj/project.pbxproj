@@ -29,6 +29,9 @@
 		59FECF461CD656AB0043A46F /* ATHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FECF4B1CD656AB0043A46F /* ATHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATHelperTests.m; sourceTree = "<group>"; };
 		59FECF4D1CD656AC0043A46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902C44050CEE6DEEB1127450 /* ATHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ATHelper.podspec; sourceTree = "<group>"; };
+		902C453536671D4565645E67 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		902C4FADA5C5856B060CD455 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,9 @@
 				59FECF3E1CD656AB0043A46F /* ATHelper */,
 				59FECF4A1CD656AB0043A46F /* ATHelperTests */,
 				59FECF3D1CD656AB0043A46F /* Products */,
+				902C44050CEE6DEEB1127450 /* ATHelper.podspec */,
+				902C4FADA5C5856B060CD455 /* README */,
+				902C453536671D4565645E67 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
